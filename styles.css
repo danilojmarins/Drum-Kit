@@ -1,0 +1,102 @@
+/* General Customization */
+
+body {
+    text-align: center;
+    background-color: #FAF7EC;
+}
+
+h1 {
+    font-family: 'Enriqueta', serif;
+    color: #54BAC9;
+    font-weight: bold;
+    font-size: 5rem;
+    text-shadow: 0 0 3px #333;
+}
+
+h2 {
+    font-family: 'Enriqueta', serif;
+    color: #54BAC9;
+    font-weight: bold;
+    font-size: 4rem;
+    position: relative;
+    bottom: 170px;
+    text-shadow: 0 0 10px black;
+}
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 3.8rem;
+    }
+}
+
+button {
+    font-family: 'Enriqueta', serif;
+    color: #54BAC9;
+    font-weight: bold;
+    font-size: 4rem;
+    text-shadow: 0 0 10px black;
+    height: 130px;
+    width: 130px;
+    border-style: none;
+    position: relative;
+    bottom: 140px;
+    opacity: 1;
+    background-color: rgb(1, 1, 1, 0);
+}
+
+
+
+p {
+    font-family: 'Lato', sans-serif;
+    color: #54BAC9;
+    font-size: 1.3rem;
+    margin-top: 0;
+}
+
+img {
+    background-color: white;
+    width: 130px;
+    height: 130px;
+    object-fit: none;
+    object-position: left top;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    border-width: 5px;
+    box-shadow: 0 0 25px rgb(25, 25, 25, 0.7);
+    opacity: 0.8;
+}
+
+
+/* Drum Buttons Div */
+
+.drum-play {
+    display: flex;
+    justify-content: center;
+    padding: 8% 13% 10% 13%;
+    flex-wrap: wrap;
+}
+.drum-img {
+    margin: 0 20px 0 20px;
+    width: 150px;
+    height: 250px;
+}
+
+
+/* Footer */
+
+.fa-drum {
+    font-size: 0.7rem;
+}
+.fab {
+    color: #54BAC9;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+
+/* Press Animation Class */
+
+.press {
+    border-color: goldenrod;
+    box-shadow: 0 0 25px goldenrod;
+}
